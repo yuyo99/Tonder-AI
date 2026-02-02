@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "metabase": {
+      "command": "npx",
+      "args": ["-y", "@anthropics/metabase-mcp-server"],
+      "env": {
+        "METABASE_URL": "https://your-instance.metabaseapp.com",
+        "METABASE_API_KEY": "your-metabase-api-key-here"
+      }
+    }
+  }
+}
